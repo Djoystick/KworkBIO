@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Сергей — Портфолио</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Портфолио, биография и контакты." />
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <div class="brand">
+      <a href="index.html" class="logo" aria-label="На главную">
+        <span class="logo-mark" aria-hidden="true">CW</span>
+        <span class="logo-text">Сергей</span>
+      </a>
+    </div>
+    <a href="index.html" class="btn">Главная</a>
+    <a href="bio.html" class="btn">Биография</a>
+    <a href="works.html" class="btn">Примеры работ</a>
+    <a href="contacts.html" class="cta">Контакты</a>
+  </div>
+</header>
+
+<main class="main">
+  <div class="container">
+    <section class="hero">
+      <div class="col">
+        <h1>Современный копирайтинг для роста продукта</h1>
+        <p class="lead">Ясные тексты, понятные офферы и правильные CTA по принципам Material — чтобы людям было удобно, а бизнесу выгодно.</p>
+        <div class="list" style="margin-top:10px;display:flex;flex-wrap:wrap">
+          <a class="cta" href="contacts.html">Связаться</a>
+          <a class="btn" href="works.html">Смотреть работы</a>
+          <a class="btn" href="bio.html">Узнать обо мне</a>
+        </div>
+      </div>
+
+      <!-- ИСПРАВЛЕННЫЙ БЛОК С ЦЕНТРИРОВАНИЕМ И ПРАВИЛЬНЫМ ПУТЁМ -->
+      <div class="col" style="display: flex; flex-direction: column; align-items: center;">
+        <!-- Путь к картинке исправлен на "Avatar/avatar.png" -->
+        <img src="Avatar/avatar.png" alt="Портрет" style="max-width:100%;height:auto;width:140px;border-radius:50%;border:1px solid var(--border);margin-bottom:12px;" />
+        <div class="badges" style="margin-top:0; display: flex; justify-content: center; flex-wrap: wrap;">
+          <span class="badge">Копирайтинг</span>
+          <span class="badge">Контент-стратегия</span>
+          <span class="badge">UX-райтинг</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Ключевые компетенции</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Лендинги (elevated)</h3>
+          <p>Структура, офферы и CTA по гайдам Material: читаемая иерархия, контраст и фокус на действии.</p>
+        </div>
+        <div class="card">
+          <h3>Статьи и кейсы (outlined)</h3>
+          <p>Информационная архитектура, визуальная иерархия и читабельность на любых устройствах.</p>
+        </div>
+        <div class="card">
+          <h3>Контент-системы (filled)</h3>
+          <p>Тон и голос, шаблоны и гайдлайны: единообразие и масштабируемость контента.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">© 2025 Djoystick</div>
+</footer>
+</body>
+</html>
